@@ -1,0 +1,20 @@
+body {
+  background-color: #F6FCFF;
+  background-image: url('../images/main_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+/* 정중앙 위치
+* 화면 너비는 화면크기
+*/
+.character {
+  /* 이미지는 인라인 요소 : 가운데로 안간다. */
+  /* 이미지를 블럭요소로 변환해서 처리 */
+  /* display: block; */
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
